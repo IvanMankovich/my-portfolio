@@ -10,7 +10,7 @@ import { NotFound } from './pages/NotFound/NotFound';
 
 function App() {
   return (
-    <HashRouter>
+    <HashRouter basename="/">
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
