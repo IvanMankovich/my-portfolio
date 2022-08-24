@@ -1,7 +1,6 @@
-import React from 'react';
-import quiz2 from '../../static-assets/images/quiz/_img2.jpg';
-import quiz3 from '../../static-assets/images/quiz/_img3.jpg';
-import quiz4 from '../../static-assets/images/quiz/_img4.jpg';
+import quiz2 from '../../static-assets/images/quiz/img2.jpg';
+import quiz3 from '../../static-assets/images/quiz/img3.jpg';
+import quiz4 from '../../static-assets/images/quiz/img4.jpg';
 
 import broadcast1 from '../../static-assets/images/broadcast/img1.jpg';
 import broadcast2 from '../../static-assets/images/broadcast/img2.jpg';
