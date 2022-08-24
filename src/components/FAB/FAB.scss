@@ -1,0 +1,16 @@
+.change > div:nth-child(1) {
+  -webkit-transform: rotate(-45deg) translate(-7px, 7px);
+  transform: rotate(-45deg) translate(-7px, 7px);
+  transition: 0.4s;
+}
+
+.change > div:nth-child(2) {
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.change > div:nth-child(3) {
+  -webkit-transform: rotate(45deg) translate(-7px, -7px);
+  transform: rotate(45deg) translate(-7px, -7px);
+  transition: 0.4s;
+}

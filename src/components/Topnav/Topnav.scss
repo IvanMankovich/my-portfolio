@@ -1,0 +1,8 @@
+.topnav-link:hover > div:not(.dropdown-content) {
+  width: 100%;
+  transition: all 0.6s ease-out;
+}
+
+.topnav-link > div {
+  transition: all 0.6s ease-in;
+}
