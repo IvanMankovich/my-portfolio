@@ -1,6 +1,6 @@
-import { Route, BrowserRouter, Routes } from 'react-router-dom';
-import {Home} from './pages/Home/Home';
-import {Skills} from './pages/Skills/Skills';
+import { Route, HashRouter, Routes } from 'react-router-dom';
+import { Home } from './pages/Home/Home';
+import { Skills } from './pages/Skills/Skills';
 import { Layout } from './components/Layout/Layout';
 import { Protfolio } from './pages/Portfolio/Protfolio';
 import { Experience } from './pages/Experience/Experience';
@@ -10,7 +10,7 @@ import { NotFound } from './pages/NotFound/NotFound';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -22,7 +22,7 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
